@@ -1,0 +1,82 @@
+/*Corpo da página Principal*/
+body#principal {
+    background-color: slateblue;
+    color: cyan;
+ }
+ #principal a {
+    color: white;
+    text-decoration: none; /*Tira o sublinhado*/
+    cursor: pointer; /*Muda o cursor do link*/
+ }
+  
+ #principal a:hover { /*Ao passar o mouse por cima*/
+    color: cyan;
+ }
+ 
+ /*Corpo da página bispos*/
+body#bispos {
+    background-color: rgb(182, 62, 62);
+    color: white;
+ }
+  
+ /*Corpo da página cavalos*/
+ body#cavalos {
+    background-color: rgb(30, 128, 106);
+    color: rgb(8, 8, 66);
+ }
+  
+ /*Corpo da página dama*/
+ body#dama {
+    background-color: rgba(255, 0, 200, 0.479);
+    color: rgb(2, 2, 10);
+ }
+
+ /*Corpo da página peões*/
+ body#peoes {
+    background-color: rgb(11, 11, 61);
+    color: deepskyblue;
+ }
+
+ /*Corpo da página rei*/
+ body#rei {
+    background-color: rgb(3, 43, 37);
+    color: rgb(79, 175, 204);
+ }
+
+ /*Corpo da página torres*/
+ body#torres {
+    background-color: rgb(95, 3, 30);
+    color: rgb(136, 163, 236);
+ }
+
+ /*Configurações ferais - para todos os arquivos*/
+
+ img {
+    width: 300px;
+    display: block;
+    margin: 0 auto; /*alinhando ao centro*/
+    transition: all 0.3s;
+    border: 5px solid white;   
+ }
+ img:hover {
+    width: 320px;
+    box-shadow: 0 0 20px black;
+ }
+
+    footer a{
+        background-color: aliceblue;
+        width: fit-content;
+        padding: 5px;
+        text-decoration: none;
+        color: black !important;
+        border: 2px outset aliceblue;
+        Display: block;
+        margin: 0 auto;
+        border-radius: 3px;
+     }
+      
+     footer a:hover {
+        border: 2px inset gainsboro;
+        background-color: gainsboro;
+     }
+     
